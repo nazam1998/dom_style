@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="public/css/style.css">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/admin-lte/dist/css/AdminLTE.min.css">
+  <title>StyleGenerator</title>
+</head>
+
+<body>
+  <div class="container  mt-4">
+    <div class="callout callout-info">
+      <h4>Le DOM - Exo: StyleGenerator</h4>
+    </div>
+    <div class="box box-primary ">
+      <div id="section-click" class="box-header with-border">
+        <button data-style="backgroundColor" class="btn btn-light mr-1">W</button>
+        <button data-style="backgroundColor" class="btn btn-danger mr-1">R</button>
+        <button data-style="backgroundColor" class="btn btn-success mr-1">G</button>
+        <button data-style="backgroundColor" class="btn btn-primary mr-1">B</button>
+        <button id="solid" data-style="borderStyle" class="btn mr-1"></button>
+        <button id="dashed" data-style="borderStyle" class="btn mr-1"></button>
+        <button id="dotted" data-style="borderStyle" class="btn mr-1"></button>
+        <button id="border-top-1" data-style="borderTopWidth" class="btn mr-1">top</button>
+        <button id="border-top-2" data-style="borderTopWidth" class="btn mr-1">top</button>
+        <button id="border-top-3" data-style="borderTopWidth" class="btn mr-1">top</button>
+      </div>
+      <div id="section-change" class="box-body">
+        <div class="mt-2">
+          <input type="color" data-style="borderColor" class="btn mr-1">
+          <input type="number" data-style="borderWidth" value="3" class="btn b-1 mr-1">
+          <input type="number" data-style="borderTopWidth" value="3" class="btn bt-1 mr-1">
+          <input type="number" data-style="borderRightWidth" value="3" class="btn br-1 mr-1">
+          <input type="number" data-style="borderBottomWidth" value="3" class="btn bb-1 mr-1">
+          <input type="number" data-style="borderLeftWidth" value="3" class="btn bl-1 mr-1">
+        </div>
+        <br>
+        <div class="mt-2">
+          <input type="number" data-style="borderRadius" value="3" class="btn b-1 b-r-1 mr-1">
+          <input type="number" data-style="borderTopLeftRadius" value="3" class="btn bt-1 bl-1 br-tl-1 mr-1">
+          <input type="number" data-style="borderTopRightRadius" value="3" class="btn br-1 bt-1 br-tr-1 mr-1">
+          <input type="number" data-style="borderBottomRightRadius" value="3" class="btn br-1 bb-1 br-br-1 mr-1">
+          <input type="number" data-style="borderBottomLeftRadius" value="3" class="btn bl-1 bb-1 br-bl-1 mr-1">
+        </div>
+      </div>
+      <div class="box-body">
+        <div id="rendu-rectangle"></div>
+      </div>
+    </div>
+  </div>
+  <script src="public/js/main.js"></script>
+</body>
+
+</html>

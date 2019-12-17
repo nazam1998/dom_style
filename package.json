@@ -1,0 +1,17 @@
+{
+  "name": "StyleGenerator",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "admin-lte": "^2.4.8",
+    "package-lock.json": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
